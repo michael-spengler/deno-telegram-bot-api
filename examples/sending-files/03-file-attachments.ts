@@ -1,15 +1,15 @@
 /**
  * Run this example from the shell!
  * MacOS, Linux $:
- * TOKEN=your-bot-token deno run --allow-net --allow-env --allow-read https://x.nest.land/telegram_bot_api@0.0.1/examples/sending-files/03-file-attachments.ts
+ * TOKEN=your-bot-token deno run --allow-net --allow-env --allow-read https://x.nest.land/telegram-bot-api@0.1.0/examples/sending-files/03-file-attachments.ts
  * Windows $:
- * set TOKEN=your-bot-token && deno run --allow-net --allow-env --allow-read https://x.nest.land/telegram_bot_api@0.0.1/examples/sending-files/03-file-attachments.ts
+ * set TOKEN=your-bot-token && deno run --allow-net --allow-env --allow-read https://x.nest.land/telegram-bot-api@0.1.0/examples/sending-files/03-file-attachments.ts
  */
 
 import {
   TelegramBot,
   UpdateType,
-} from "https://x.nest.land/telegram_bot_api@0.0.1/mod.ts";
+} from "https://x.nest.land/telegram-bot-api@0.1.0/mod.ts";
 
 /**
  * While exploring Telegram Bot API you can find that some files should be send

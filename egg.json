@@ -4,7 +4,10 @@
   "stable": true,
   "files": [
     "examples/*",
+    "examples/*/*",
     "src/*",
+    "src/*/*",
+    "src/*/*/*",
     "LICENSE",
     "mod.ts",
     "README.md"

@@ -1,15 +1,15 @@
 /**
  * Run this example from the shell!
  * MacOS, Linux $:
- * TOKEN=your-bot-token deno run --allow-net --allow-env https://x.nest.land/telegram_bot_api@0.0.1/examples/sending-files/01-simple-media.ts
+ * TOKEN=your-bot-token deno run --allow-net --allow-env https://x.nest.land/telegram-bot-api@0.1.0/examples/sending-files/01-simple-media.ts
  * Windows $:
- * set TOKEN=your-bot-token && deno run --allow-net --allow-env https://x.nest.land/telegram_bot_api@0.0.1/examples/sending-files/01-simple-media.ts
+ * set TOKEN=your-bot-token && deno run --allow-net --allow-env https://x.nest.land/telegram-bot-api@0.1.0/examples/sending-files/01-simple-media.ts
  */
 
 import {
   TelegramBot,
   UpdateType,
-} from "https://x.nest.land/telegram_bot_api@0.0.1/mod.ts";
+} from "https://x.nest.land/telegram-bot-api@0.1.0/mod.ts";
 
 /**
  * To make requests with media files it's allowed to put `Blob`s as parameters

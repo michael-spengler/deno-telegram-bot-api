@@ -1,15 +1,15 @@
 /**
  * Run this example from the shell!
  * MacOS, Linux $:
- * TOKEN=your-bot-token deno run --allow-net --allow-env https://x.nest.land/telegram_bot_api@0.0.1/examples/02-callback-query.ts
+ * TOKEN=your-bot-token deno run --allow-net --allow-env https://x.nest.land/telegram-bot-api@0.1.0/examples/02-callback-query.ts
  * Windows $:
- * set TOKEN=your-bot-token && deno run --allow-net --allow-env https://x.nest.land/telegram_bot_api@0.0.1/examples/02-callback-query.ts
+ * set TOKEN=your-bot-token && deno run --allow-net --allow-env https://x.nest.land/telegram-bot-api@0.1.0/examples/02-callback-query.ts
  */
 
 import {
   TelegramBot,
   UpdateType,
-} from "https://x.nest.land/telegram_bot_api@0.0.1/mod.ts";
+} from "https://x.nest.land/telegram-bot-api@0.1.0/mod.ts";
 
 /**
  * This example shows how to setup inline keyboard with buttons, and then handle
