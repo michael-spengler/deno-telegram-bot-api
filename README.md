@@ -15,6 +15,7 @@ The example of bot which responds with a file containing user message inside.
 
 ```ts
 import { TelegramBot, UpdateType } from "https://x.nest.land/telegram-bot-api@0.1.0/mod.ts"
+import "https://deno.land/x/dotenv/load.ts"
 
 const TOKEN = Deno.env.get("TOKEN");
 if (!TOKEN) throw new Error("Bot token is not provided");
