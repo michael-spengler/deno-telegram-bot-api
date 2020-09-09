@@ -1,3 +1,5 @@
+[![nest badge](https://nest.land/badge.svg)](https://nest.land/package/telegram-bot-api)
+
 # deno-telegram-bot-api
 🦕 wrapper for Telegram Bot API 
 
