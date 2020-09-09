@@ -1,0 +1,12 @@
+{
+  "name": "telegram-bot-api",
+  "description": "Wrapper for Telegram Bot API",
+  "stable": true,
+  "files": [
+    "examples/*",
+    "src/*",
+    "LICENSE",
+    "mod.ts",
+    "README.md"
+  ]
+}

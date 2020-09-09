@@ -1,15 +1,15 @@
 /**
  * Run this example from the shell!
  * MacOS, Linux $:
- * TOKEN=your-bot-token WEBHOOK_URL=webhook-url PORT=3000 deno run --allow-net --allow-env https://deno.land/x/telegram_bot_api/examples/03-webhook.ts
+ * TOKEN=your-bot-token WEBHOOK_URL=webhook-url PORT=3000 deno run --allow-net --allow-env https://x.nest.land/telegram_bot_api@0.0.1/examples/03-webhook.ts
  * Windows $:
- * set TOKEN=your-bot-token && set WEBHOOK_URL=webhook-url && set PORT=3000 && deno run --allow-net --allow-env https://deno.land/x/telegram_bot_api/examples/03-webhook.ts
+ * set TOKEN=your-bot-token && set WEBHOOK_URL=webhook-url && set PORT=3000 && deno run --allow-net --allow-env https://x.nest.land/telegram_bot_api@0.0.1/examples/03-webhook.ts
  */
 
 import {
   TelegramBot,
   UpdateType,
-} from "https://deno.land/x/telegram_bot_api/mod.ts";
+} from "https://x.nest.land/telegram_bot_api@0.0.1/mod.ts";
 
 /**
  * This example shows how to set Webhook and run Webhook server on localhost.
